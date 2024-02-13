@@ -42,14 +42,20 @@ function generateSVG(chosenShape, shapeColor, text, textColor) {
     </svg>
   `;
 
+<<<<<<< HEAD
   // Write to file
+=======
+>>>>>>> 848a597b63280b5d9bc652d3f08ea707890f75f2
   fs.writeFileSync('output.svg', svgContent);
 
   console.log('SVG file generated successfully!');
   rl.close();
+<<<<<<< HEAD
 
   // Return the SVG string for testing purposes
   return svgContent;
+=======
+>>>>>>> 848a597b63280b5d9bc652d3f08ea707890f75f2
 }
 
 rl.question('Choose a shape (square, circle, triangle): ', (chosenShape) => {
@@ -60,6 +66,10 @@ rl.question('Choose a shape (square, circle, triangle): ', (chosenShape) => {
       });
     });
   });
+<<<<<<< HEAD
 });
 
 module.exports = { generateSVG };
+=======
+});
+>>>>>>> 848a597b63280b5d9bc652d3f08ea707890f75f2
